@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #09090b, #18181b);
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 12px;
+  background: #18181b;
+  border: 1px solid #27272a;
+  transition: .3s;
+}
+
+.link:hover {
+  transform: translateY(-3px);
+  background: #27272a;
+}
+
+.destaque {
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  border: none;
+}
